@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9014d498-606b-45c6-86e9-edc57e73b56f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1i85SpZYjqS8i3KiQhc0bmHO4iC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/chrome/download/fenlei" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\myBootStrap\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\myBootStrap\js" />
+      <recent name="F:\myBootStrap\img" />
+      <recent name="F:\myBootStrap\fonts" />
+      <recent name="F:\myBootStrap\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9014d498-606b-45c6-86e9-edc57e73b56f" name="Default Changelist" comment="" />
+      <created>1601276381137</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601276381137</updated>
+      <workItem from="1601276382236" duration="8640000" />
+      <workItem from="1601343021451" duration="602000" />
+      <workItem from="1601347816258" duration="51000" />
+      <workItem from="1601353299225" duration="9641000" />
+      <workItem from="1601429948636" duration="635000" />
+      <workItem from="1601439290316" duration="1647000" />
+      <workItem from="1601446683218" duration="5011000" />
+      <workItem from="1601533212108" duration="20834000" />
+      <workItem from="1602080626834" duration="1648000" />
+      <workItem from="1602207886426" duration="1824000" />
+      <workItem from="1602212876785" duration="1483000" />
+      <workItem from="1602215236709" duration="723000" />
+      <workItem from="1602231767544" duration="7300000" />
+      <workItem from="1602250654336" duration="18000" />
+      <workItem from="1602294671949" duration="21000" />
+      <workItem from="1605691190424" duration="44000" />
+      <workItem from="1605691242836" duration="4328000" />
+      <workItem from="1605701806976" duration="38000" />
+      <workItem from="1605775802765" duration="1480000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1605701842600">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605701842600" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1602234913760">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602234913760" />
+    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup" timestamp="1601567560590">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601567560590" />
+  </component>
+</project>

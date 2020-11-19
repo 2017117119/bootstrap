@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>myBootStrap</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="fonts/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/1.ico"/>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<!--头部-->
+
+<header id="header">
+    <div class="top-bar hidden-xs hidden-sm text-center text-muted">
+        <div class="container">
+            <div class="row">
+                <div class="top-bar-1 col-sm-2">
+                    <a href="" class="text-muted">
+                        <i class="glyphicon glyphicon-phone"></i>
+                        <span>关注微信号</span>
+                        <span class="caret"></span><!--下三角-->
+                        <img src="img/ewm.jpg" alt="二维码" style="width: 130px">
+                    </a>
+                </div>
+                <div class="top-bar-2 col-sm-5">
+                    <i class="glyphicon glyphicon-phone-alt"></i>
+                    <span>8888-888-8888(在线时间：9:00-21:00)</span>
+                </div>
+                <div class="top-bar-3 col-sm-2">
+                    <span><a href="" class="text-muted">奶茶由来</a></span>
+                    <span><a href="" class="text-muted">加盟我们</a></span>
+                </div>
+                <div class="top-bar-4 col-sm-3">
+                    <a class="btn btn-register text-muted" href="#" role="button">免费注册</a>
+                    <a class="text-muted" href="#" role="button" style="margin-left: 10px;color: gray;text-decoration: none" data-toggle="modal" data-target="#login">立即登陆</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-default navbar-yc">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#yc_nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/head.jpg" alt="商标" style="width: 50px"></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="yc_nav">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">关于我们<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">产品展示</a></li>
+                    <li><a href="#">热门饮品</a></li>
+                    <li><a href="#">友情链接</a></li>
+                    <li><a href="#" data-container="body">加盟相关</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right hidden-sm hidden-xs">
+                    <li><a href="#">个人中心</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</header>
+<!--/头部-->
+
+
+<!--轮播图-->
+<section id="carousel">
+    <div id="yc_carousel" class="carousel slide" data-ride="carousel">
+        <!-- 指示器 -->
+        <ol class="carousel-indicators">
+            <li data-target="#yc_carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#yc_carousel" data-slide-to="1"></li>
+            <li data-target="#yc_carousel" data-slide-to="2"></li>
+        </ol>
+        <!-- 中间滚动的内容 -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active" data-sm-img="img/t1-640x340.jpg" data-lg-img="img/t11.jpg">
+            </div>
+            <div class="item " data-sm-img="img/t2-640x340.jpg" data-lg-img="img/t22.jpg">
+            </div>
+            <div class="item" data-sm-img="img/t3-640x340.jpg" data-lg-img="img/t33.jpg">
+            </div>
+        </div>
+
+        <!-- 左右方向控制 -->
+        <a class="left carousel-control" href="#yc_carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#yc_carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+<!--/轮播图-->
+
+
+<!---关于我们-->
+<!--<section id="about" >
+    <div class="title text-center">
+        <h1><strong>关于我们</strong></h1>
+        <img src="img/ax.jpg" alt="" class="img-responsive">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <p class="text-muted">&nbsp;&nbsp;&nbsp;&nbsp;喜欢冬日的阳bai光洒在脸上的那种淡淡的温暖。在冬日每一次在只有阳光的时候总是喜dao欢晒晒暖阳，享受它淡淡的温暖，然后品一杯淡淡的奶茶，回味这淡淡的奶茶香和冬日的温柔的阳光。</p>
+                <p class="text-muted">&nbsp;&nbsp;&nbsp;&nbsp;本店奶茶现在已经在湖南、陕西、山西、四川、广州、山东、贵州等地开了奶茶的加盟店了，到了任何的地方，奶茶都一如既往的受到关注和认可，相信这也是奶茶自身的优势才能让它在市场中占有一席之地。奶茶现在有多达500多家的加盟店和200多家的连锁直营店，从这里也能看得出来消费者对奶茶的喜爱程度了。</p>
+                <p class="text-muted">&nbsp;&nbsp;&nbsp;&nbsp;本店奶茶总部一直都秉持着“文化、快乐、友情、服务”的经营理念”，经过这么多年的发展，已经走出了一条属于自己的道路，而且奶茶将认真的做好每一杯奶茶，为广大的消费者提供更加优势更多好喝的饮品，在竞争力激烈的奶茶行业中抱有自己的初心，不盲目自大，以消费者为第一要义。</p>
+            </div>
+            <div class="col-md-4">
+                <img src="img/show.jpg" alt="展示" class="img-responsive img-rounded hidden-xs hidden-sm">
+            </div>
+        </div>
+    </div>
+</section>-->
+<!--/关于我们-->
+
+<!---->
+<div class="skills" id="about">
+    <div class="title text-center">
+        <h1><strong>关于我们</strong></h1>
+        <img src="img/ax.jpg" alt="" class="img-responsive">
+    </div>
+    <div class="container">
+        <div class="col-md-6 skills-left">
+            <p class="text-muted">&nbsp;&nbsp;&nbsp;&nbsp;喜欢冬日的阳bai光洒在脸上的那种淡淡的温暖。在冬日每一次在只有阳光的时候总是喜dao欢晒晒暖阳，享受它淡淡的温暖，然后品一杯淡淡的奶茶，回味这淡淡的奶茶香和冬日的温柔的阳光。</p>
+            <p class="text-muted">&nbsp;&nbsp;&nbsp;&nbsp;本店奶茶总部一直都秉持着“文化、快乐、友情、服务”的经营理念”，经过这么多年的发展，已经走出了一条属于自己的道路，而且奶茶将认真的做好每一杯奶茶，为广大的消费者提供更加优势更多好喝的饮品，在竞争力激烈的奶茶行业中抱有自己的初心，不盲目自大，以消费者为第一要义。</p>
+        </div>
+        <div class="col-md-6 skills-right">
+            <div class="bar_group">
+                <div class='bar_group__bar thin' label='人流量' show_values='true' tooltip='true' value='350'></div>
+                <div class='bar_group__bar thin' label='热情度' show_values='true' tooltip='true' value='310'></div>
+                <div class='bar_group__bar thin' label='热度' show_values='true' tooltip='true' value='400'></div>
+                <div class='bar_group__bar thin' label='销量' show_values='true' tooltip='true' value='286'></div>
+            </div>
+            <script src="js/bars.js"></script>
+        </div>
+        <div class="clearfix"></div>
+
+    </div>
+</div>
+<!---->
+
+<!--产品展示-->
+<section class="yc_product" id="yc_product">
+    <div class="container">
+        <div class="row">
+            <!--头部选项-->
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#product1" aria-controls="home" role="tab" data-toggle="tab">在线美食</a></li>
+                <li role="presentation"><a href="#product2" aria-controls="profile" role="tab" data-toggle="tab">会员专享</a></li>
+                <li role="presentation"><a href="#product3" aria-controls="messages" role="tab" data-toggle="tab">美味食谱</a></li>
+                <li class="pull-right hidden-sm hidden-xs"><a href="#" aria-controls="settings" role="tab" data-toggle="tab">更多</a></li>
+            </ul>
+
+            <!-- 展示的内容 -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active " id="product1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <!--第一部分-->
+                                <div id="pd_one_1" class="media">
+                                    <div class="media-left">
+                                        <a href="#"><img class="media-object" src="img/ewm.jpg" alt="二维码" width="140" style="margin-right: 10px"></a>
+                                    </div>
+                                    <div  class="media-body  text-muted" style="padding-top: 100px">
+                                        <h5 class="media-heading">更多内容欢迎</h5>
+                                        <h5 class="media-heading">关注milkTea</h5>
+                                    </div>
+                                </div>
+                                <!--第二部分-->
+                                <ol id="pd_one-2" class="breadcrumb lead" >
+                                    <li><a href="#">甜甜の奶茶</a></li>
+                                    <li><a href="#">新鲜の水果茶</a></li>
+                                    <li><a href="#">美滋滋の刨冰</a></li>
+                                    <li><a href="#">香喷喷の小吃</a></li>
+
+                                </ol>
+                                <!--第三部分-->
+                                <h1 id="pd_one_3">
+                                        Welcome to&nbsp;&nbsp;
+                                    <strong class="text-danger">MilkTea_ccc</strong>
+                                </h1>
+                                <!--第四部分-->
+                                <div id="pd_one_4">
+                                    <button class="btn btn-primary btn-lg">详情咨询</button>
+                                    <button class="btn btn-primary btn-lg">了解更多</button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 hidden-xs hidden-sm">
+                                <img src="img/more.jpg" alt="更多" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="product2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/good.jpg" alt="更多" class="img-responsive">
+                            </div>
+                            <div class="col-md-8">
+                                <h1 class="text-warning">milkTea会员</h1>
+                                <p class="lead">目前很多奶茶加盟店都在运用会员模式，不过对会员的管理却还停留在初级阶段，比如促销活动告知、顾客生日送小礼品、会员积分兑换礼品等等，这些大致可以归类于奶茶店的硬管理。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="product3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 product-img"><a href=""><img src="img/tea1.jpg" alt=""></a></div>
+                            <div class="col-md-3 product-img"><a href=""><img src="img/tea2.jpg" alt=""></a></div>
+                            <div class="col-md-3 product-img"><a href=""><img src="img/tea3.jpg" alt=""></a></div>
+                            <div class="col-md-3 product-img"><a href=""><img src="img/tea4.jpg" alt=""></a></div>
+                        </div>
+                        <div class="row" style="margin-top: 20px">
+                            <div class="col-md-3"><a href=""><img src="img/tea5.jpg" alt=""></a></div>
+                            <div class="col-md-3"><a href=""><img src="img/tea6.jpg" alt=""></a></div>
+                            <div class="col-md-3"><a href=""><img src="img/update.jpg" alt=""></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/产品展示-->
+
+<!---热点-->
+<section id="yc_hot">
+    <div class="title text-center">
+        <h1><strong>热门饮品</strong></h1>
+        <img src="img/ax.jpg" alt="" class="img-responsive">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="media col-md-6 lesson">
+                <div class="media-left">
+                    <img src="img/hot.jpg" alt="" width="100" class="media-object img-responsive img-circle img-thumbnail">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading"><span class="text-danger">【热销】</span>美滋滋の刨冰</h4>
+                    <p style="margin-top: 10px" class="text-muted">丝滑奶茶，冰淇淋口感，入口可以感受到浓郁的奶香和厚重的茶香混合，令人印象深刻</p>
+                </div>
+                <div class="media-right text-danger">
+                    998+<span class="glyphicon glyphicon-thumbs-up" ></span>
+                </div>
+            </div>
+            <div class="media col-md-6 lesson">
+                <div class="media-left">
+                    <img src="img/hot1.jpg" alt="" width="100" class="media-object img-responsive img-circle img-thumbnail">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading"><span class="text-danger">【热销】</span>美滋滋の刨冰</h4>
+                    <p style="margin-top: 10px" class="text-muted">丝滑奶茶，冰淇淋口感，入口可以感受到浓郁的奶香和厚重的茶香混合，令人印象深刻</p>
+                </div>
+                <div class="media-right text-danger">
+                    999+<span class="glyphicon glyphicon-thumbs-up" ></span>
+                </div>
+            </div>
+            <div class="media col-md-6 lesson">
+                <div class="media-left">
+                    <img src="img/hot2.jpg" alt="" width="100" class="media-object img-responsive img-circle img-thumbnail">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading"><span class="text-danger">【热销】</span>美滋滋の刨冰</h4>
+                    <p style="margin-top: 10px" class="text-muted">丝滑奶茶，冰淇淋口感，入口可以感受到浓郁的奶香和厚重的茶香混合，令人印象深刻</p>
+                </div>
+                <div class="media-right text-danger">
+                    1000+<span class="glyphicon glyphicon-thumbs-up" ></span>
+                </div>
+            </div>
+            <div class="media col-md-6 lesson">
+                <div class="media-left">
+                    <img src="img/hot.jpg" alt="" width="100" class="media-object img-responsive img-circle img-thumbnail">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading"><span class="text-danger">【热销】</span>美滋滋の刨冰</h4>
+                    <p style="margin-top: 10px" class="text-muted">丝滑奶茶，冰淇淋口感，入口可以感受到浓郁的奶香和厚重的茶香混合，令人印象深刻</p>
+                </div>
+                <div class="media-right text-danger">
+                    1002+<span class="glyphicon glyphicon-thumbs-up" ></span>
+                </div>
+            </div>
+            <div class="media col-md-6 lesson">
+                <div class="media-left">
+                    <img src="img/hot1.jpg" alt="" width="100" class="media-object img-responsive img-circle img-thumbnail">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading"><span class="text-danger">【热销】</span>美滋滋の刨冰</h4>
+                    <p style="margin-top: 10px" class="text-muted">丝滑奶茶，冰淇淋口感，入口可以感受到浓郁的奶香和厚重的茶香混合，令人印象深刻</p>
+                </div>
+                <div class="media-right text-danger">
+                    999+<span class="glyphicon glyphicon-thumbs-up" ></span>
+                </div>
+            </div>
+            <div class="media col-md-6 lesson">
+                <div class="media-left">
+                    <img src="img/hot2.jpg" alt="" width="100" class="media-object img-responsive img-circle img-thumbnail">
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading"><span class="text-danger">【热销】</span>美滋滋の刨冰</h4>
+                    <p style="margin-top: 10px" class="text-muted">丝滑奶茶，冰淇淋口感，入口可以感受到浓郁的奶香和厚重的茶香混合，令人印象深刻</p>
+                </div>
+                <div class="media-right text-danger">
+                    1000+<span class="glyphicon glyphicon-thumbs-up" ></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/热点-->
+
+<!---链接-->
+<section id="yc_link">
+    <div class="title text-center">
+        <h1><strong>友情链接</strong></h1>
+        <img src="img/ax.jpg" alt="" class="img-responsive">
+    </div>
+    <ul class="link">
+        <li><a href=""><img src="img/link1.jpg" alt=""></a></li>
+        <li><a href=""><img src="img/link2.jpg" alt=""></a></li>
+        <li><a href=""><img src="img/link3.jpg" alt=""></a></li>
+        <li><a href=""><img src="img/link4.jpg" alt=""></a></li>
+    </ul>
+</section>
+<!--/链接-->
+
+<!---底部-->
+<footer id="yc_footer">
+    <div class="container">
+        <div class="row" style="padding-top: 10px">
+            <div class="col-md-3 one col-md-offset-1">
+                <div class="row">
+                <ul class="col-md-6">
+                    <li><a href="">关于我们</a></li>
+                    <li><a href="">奶茶介绍</a></li>
+                    <li><a href="">顾客最爱</a></li>
+                </ul>
+                <ul class="col-md-6">
+                    <li><a href="">奶茶由来</a></li>
+                    <li><a href="">加盟方式</a></li>
+                    <li><a href="">联系我们</a></li>
+                </ul>
+                </div>
+            </div>
+            <div class="col-md-3 two text-muted">
+                <h5>店铺地址：广州市仙女区123街道</h5>
+                <h5>联系电话：888-888-888</h5>
+                <h5>邮箱地址：123123123@qq.com</h5>
+            </div>
+            <div class="col-md-3 col-md-offset-1 three ">
+                <div><p>联系方式</p></div>
+                <div class="lx">
+                    <a href="#" >
+                        <img src="img/link1.jpg"class="img-circle" data-toggle="tooltip" data-placement="bottom" title="WetChart">
+                    </a>
+                    <a href="#">
+                        <img src="img/link2.jpg" alt="" class="img-circle"  data-toggle="tooltip" data-placement="bottom" title="QQ">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+<!--/底部-->
+
+<!--登录-->
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">登录</h4>
+            </div>
+            <div class="modal-body">
+                账号：<input type="text" placeholder="请输入账号"><br><br>
+                密码：<input type="password" placeholder="请输入密码">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">重置</button>
+                <button type="button" class="btn btn-primary">登录</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="toTop" onclick="tz()">Top</div>
+</body>
